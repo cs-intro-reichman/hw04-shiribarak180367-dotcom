@@ -36,7 +36,7 @@ public class Primes {
        
        
 
-  System.out.println(" There are " + count + " primes between 2 and " + num + " (" + f + "% are primes)");
+  System.out.println("There are " + count + " primes between 2 and " + num + " (" + f + "% are primes)");
     
      
 }
