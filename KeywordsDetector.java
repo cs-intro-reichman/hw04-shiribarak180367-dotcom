@@ -26,7 +26,7 @@ public class KeywordsDetector {
         String NewSentences = MyString.lowerCase(sentence);
      
      for ( int j =0 ; j < keywords.length ; j++){
-        String word = keywords[j];
+        String word = keywords[j]; 
         String Newword = MyString.lowerCase(word);
         if(MyString.contains(NewSentences, Newword)== true){
             String result = Newword;
