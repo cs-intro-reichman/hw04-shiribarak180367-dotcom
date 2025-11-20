@@ -29,7 +29,7 @@ public class KeywordsDetector {
         String word = keywords[j]; 
         String Newword = MyString.lowerCase(word);
         if(MyString.contains(NewSentences, Newword)== true){
-            String result = Newword;
+            String result = NewSentences;
             System.out.println(result);
             
 
